@@ -35,4 +35,4 @@ function wp_follow_us($content)
 }
 
 // Hook our function to WordPress the_content filter
-add_filter('the_content', 'wpb_follow_us');
+add_filter('the_content', 'wp_follow_us');
